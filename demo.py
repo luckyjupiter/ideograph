@@ -22,6 +22,7 @@ from graph.tension import TensionAnalyzer
 from graph.stance import StanceExtractor
 from graph.forks import ForkTree, ForkLevel
 from graph.profiler import FigureProfiler, create_example_profiles, Statement
+from graph.compaction import GraphCompactor, analyze_fork_structure
 
 
 def create_demo_graph() -> IdeologicalGraph:
@@ -441,6 +442,54 @@ def main():
         print(f"\n  Q: {fork.question}")
         print(f"     A) {fork.option_a[:60]}...")
         print(f"     B) {fork.option_b[:60]}...")
+
+    # ═══════════════════════════════════════════════════════════
+    # GRAPH COMPACTION: Finding Decisive Forks
+    # ═══════════════════════════════════════════════════════════
+    print("\n" + "=" * 60)
+    print("Graph Compaction: Decisive Forks & Archetypes")
+    print("=" * 60)
+
+    # Analyze structure
+    structure = analyze_fork_structure(tree)
+    print(f"\nStructure Analysis:")
+    print(f"  Total forks: {structure['total_forks']}")
+    print(f"  Max depth: {structure['max_depth']}")
+    print(f"  Avg branching factor: {structure['avg_branching_factor']:.2f}")
+    print(f"  Linearity score: {structure['linearity_score']:.2f}")
+    print(f"  Is divergent: {structure['is_divergent']}")
+
+    print(f"\nNull hypothesis test:")
+    if structure['is_divergent']:
+        print("  REJECTED - The graph is divergent, not linear.")
+        print("  People think in genuinely different ways.")
+    else:
+        print("  NOT REJECTED - The graph is mostly linear.")
+
+    print(f"\nTop decisive forks (predict everything else):")
+    for fork_info in structure['top_decisive_forks']:
+        print(f"  - {fork_info['question']}")
+        print(f"    Decisiveness: {fork_info['decisiveness']:.3f}, Info gain: {fork_info['information_gain']:.3f}")
+
+    print(f"\nMinimal set size: {structure['minimal_set_size']} forks")
+    print(f"  (This many questions can predict most of ideology)")
+
+    # Extract archetypes
+    compactor = GraphCompactor(tree)
+    compactor.analyze()
+    archetypes = compactor.extract_archetypes()
+
+    print(f"\nPsychological Archetypes of Political Thinking:")
+    for arch in archetypes:
+        print(f"\n  {arch.name} (~{arch.population_share:.0%} of population)")
+        print(f"    {arch.description}")
+        print(f"    Traits: {', '.join(arch.traits)}")
+        key_forks = list(arch.fork_choices.items())[:3]
+        for fork_id, choice in key_forks:
+            fork = tree.forks.get(fork_id)
+            if fork:
+                chosen = fork.option_a if choice == "a" else fork.option_b
+                print(f"    - {fork.question[:30]}... → {chosen[:30]}...")
 
     # Save graph
     save_path = Path(__file__).parent / "data" / "demo_graph.json"
