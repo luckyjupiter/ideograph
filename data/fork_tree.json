@@ -1,0 +1,587 @@
+{
+  "meaning": {
+    "id": "meaning",
+    "question": "What is the meaning of human existence?",
+    "option_a": "Life has inherent meaning/purpose (theistic/essentialist)",
+    "option_b": "Meaning is constructed/emergent (existentialist/materialist)",
+    "level": "root",
+    "domain": "metaphysics",
+    "parent_fork_id": null,
+    "child_forks": [
+      "individualism"
+    ],
+    "traditions_a": [
+      "religious",
+      "classical",
+      "traditionalist"
+    ],
+    "traditions_b": [
+      "secular",
+      "existentialist",
+      "progressive"
+    ],
+    "polarization": 0.8,
+    "importance": 1.0
+  },
+  "human_nature": {
+    "id": "human_nature",
+    "question": "What is human nature?",
+    "option_a": "Humans are flawed/fallen, need constraint",
+    "option_b": "Humans are good/perfectible, need liberation",
+    "level": "root",
+    "domain": "metaphysics",
+    "parent_fork_id": null,
+    "child_forks": [
+      "equality_vs_hierarchy"
+    ],
+    "traditions_a": [
+      "conservative",
+      "religious",
+      "realist"
+    ],
+    "traditions_b": [
+      "progressive",
+      "anarchist",
+      "utopian"
+    ],
+    "polarization": 0.9,
+    "importance": 1.0
+  },
+  "knowledge": {
+    "id": "knowledge",
+    "question": "How do we know what's true?",
+    "option_a": "Tradition, revelation, accumulated wisdom",
+    "option_b": "Reason, empiricism, individual inquiry",
+    "level": "root",
+    "domain": "epistemology",
+    "parent_fork_id": null,
+    "child_forks": [
+      "change"
+    ],
+    "traditions_a": [
+      "traditionalist",
+      "religious",
+      "burkean"
+    ],
+    "traditions_b": [
+      "rationalist",
+      "scientific",
+      "enlightenment"
+    ],
+    "polarization": 0.7,
+    "importance": 0.9
+  },
+  "individualism": {
+    "id": "individualism",
+    "question": "What is the basic unit of society?",
+    "option_a": "The individual, with inherent rights",
+    "option_b": "The collective/community, individuals embedded",
+    "level": "meta",
+    "domain": "governance",
+    "parent_fork_id": "meaning",
+    "child_forks": [
+      "freedom_vs_equality",
+      "security_vs_liberty",
+      "nationalism"
+    ],
+    "traditions_a": [
+      "libertarian",
+      "liberal",
+      "objectivist"
+    ],
+    "traditions_b": [
+      "communitarian",
+      "socialist",
+      "traditionalist"
+    ],
+    "polarization": 0.85,
+    "importance": 0.95
+  },
+  "equality_vs_hierarchy": {
+    "id": "equality_vs_hierarchy",
+    "question": "What is the natural order of society?",
+    "option_a": "Fundamental equality, hierarchy is imposed",
+    "option_b": "Natural hierarchy, equality is artificial",
+    "level": "meta",
+    "domain": "governance",
+    "parent_fork_id": "human_nature",
+    "child_forks": [],
+    "traditions_a": [
+      "egalitarian",
+      "socialist",
+      "progressive"
+    ],
+    "traditions_b": [
+      "conservative",
+      "monarchist",
+      "meritocratic"
+    ],
+    "polarization": 0.9,
+    "importance": 0.95
+  },
+  "change": {
+    "id": "change",
+    "question": "How should society change?",
+    "option_a": "Gradual reform, preserve what works",
+    "option_b": "Bold transformation, break what's broken",
+    "level": "meta",
+    "domain": "governance",
+    "parent_fork_id": "knowledge",
+    "child_forks": [
+      "tradition_vs_progress",
+      "climate"
+    ],
+    "traditions_a": [
+      "conservative",
+      "centrist",
+      "institutionalist"
+    ],
+    "traditions_b": [
+      "progressive",
+      "revolutionary",
+      "accelerationist"
+    ],
+    "polarization": 0.75,
+    "importance": 0.85
+  },
+  "freedom_vs_equality": {
+    "id": "freedom_vs_equality",
+    "question": "When freedom and equality conflict, which prevails?",
+    "option_a": "Equality\u2014outcomes matter more than process",
+    "option_b": "Freedom\u2014liberty must not be sacrificed",
+    "level": "axiom",
+    "domain": "governance",
+    "parent_fork_id": "individualism",
+    "child_forks": [
+      "markets",
+      "state"
+    ],
+    "traditions_a": [
+      "socialist",
+      "progressive",
+      "social_democrat"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "classical_liberal",
+      "conservative"
+    ],
+    "polarization": 0.9,
+    "importance": 0.9
+  },
+  "security_vs_liberty": {
+    "id": "security_vs_liberty",
+    "question": "When security and liberty conflict, which prevails?",
+    "option_a": "Security\u2014safety enables all other goods",
+    "option_b": "Liberty\u2014freedom cannot be traded for safety",
+    "level": "axiom",
+    "domain": "governance",
+    "parent_fork_id": "individualism",
+    "child_forks": [
+      "guns",
+      "speech"
+    ],
+    "traditions_a": [
+      "statist",
+      "authoritarian",
+      "paternalist"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "aclu_liberal",
+      "civil_libertarian"
+    ],
+    "polarization": 0.8,
+    "importance": 0.85
+  },
+  "tradition_vs_progress": {
+    "id": "tradition_vs_progress",
+    "question": "Is the past a guide or obstacle?",
+    "option_a": "Progress\u2014history is moral improvement",
+    "option_b": "Tradition\u2014accumulated wisdom, Chesterton's fence",
+    "level": "axiom",
+    "domain": "social",
+    "parent_fork_id": "change",
+    "child_forks": [
+      "abortion"
+    ],
+    "traditions_a": [
+      "progressive",
+      "transhumanist",
+      "modernist"
+    ],
+    "traditions_b": [
+      "conservative",
+      "traditionalist",
+      "perennialist"
+    ],
+    "polarization": 0.85,
+    "importance": 0.85
+  },
+  "markets": {
+    "id": "markets",
+    "question": "What role should markets play?",
+    "option_a": "Markets need strong regulation/planning",
+    "option_b": "Free markets allocate best, minimal intervention",
+    "level": "framework",
+    "domain": "economics",
+    "parent_fork_id": "freedom_vs_equality",
+    "child_forks": [
+      "trade",
+      "tech_regulation",
+      "crypto"
+    ],
+    "traditions_a": [
+      "socialist",
+      "keynesian",
+      "social_democrat"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "austrian",
+      "neoliberal"
+    ],
+    "polarization": 0.85,
+    "importance": 0.8
+  },
+  "state": {
+    "id": "state",
+    "question": "What should the state do?",
+    "option_a": "Expansive: provide, protect, redistribute",
+    "option_b": "Minimal: defense, courts, contracts only",
+    "level": "framework",
+    "domain": "governance",
+    "parent_fork_id": "freedom_vs_equality",
+    "child_forks": [
+      "welfare"
+    ],
+    "traditions_a": [
+      "social_democrat",
+      "progressive",
+      "statist"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "minarchist",
+      "classical_liberal"
+    ],
+    "polarization": 0.85,
+    "importance": 0.85
+  },
+  "nationalism": {
+    "id": "nationalism",
+    "question": "What is the proper scope of political community?",
+    "option_a": "Cosmopolitan\u2014universal humanity, global institutions",
+    "option_b": "National\u2014bounded communities, sovereignty",
+    "level": "framework",
+    "domain": "foreign_policy",
+    "parent_fork_id": "individualism",
+    "child_forks": [
+      "immigration",
+      "foreign_intervention",
+      "china"
+    ],
+    "traditions_a": [
+      "globalist",
+      "liberal_internationalist",
+      "eu_federalist"
+    ],
+    "traditions_b": [
+      "nationalist",
+      "paleocon",
+      "sovereigntist"
+    ],
+    "polarization": 0.8,
+    "importance": 0.75
+  },
+  "immigration": {
+    "id": "immigration",
+    "question": "What should immigration policy prioritize?",
+    "option_a": "Open\u2014human mobility, economic growth",
+    "option_b": "Restricted\u2014cultural cohesion, labor protection",
+    "level": "domain",
+    "domain": "social",
+    "parent_fork_id": "nationalism",
+    "child_forks": [],
+    "traditions_a": [
+      "libertarian",
+      "progressive",
+      "neoliberal"
+    ],
+    "traditions_b": [
+      "populist",
+      "nationalist",
+      "labor_left"
+    ],
+    "polarization": 0.85,
+    "importance": 0.7
+  },
+  "trade": {
+    "id": "trade",
+    "question": "What trade policy is best?",
+    "option_a": "Free trade\u2014comparative advantage, globalization",
+    "option_b": "Protected trade\u2014domestic industry, strategic autonomy",
+    "level": "domain",
+    "domain": "economics",
+    "parent_fork_id": "markets",
+    "child_forks": [],
+    "traditions_a": [
+      "neoliberal",
+      "libertarian",
+      "establishment"
+    ],
+    "traditions_b": [
+      "populist",
+      "labor",
+      "nationalist"
+    ],
+    "polarization": 0.7,
+    "importance": 0.65
+  },
+  "welfare": {
+    "id": "welfare",
+    "question": "What level of welfare state?",
+    "option_a": "Expansive\u2014universal services, safety net",
+    "option_b": "Minimal\u2014targeted, means-tested, personal responsibility",
+    "level": "domain",
+    "domain": "economics",
+    "parent_fork_id": "state",
+    "child_forks": [],
+    "traditions_a": [
+      "social_democrat",
+      "progressive",
+      "labor"
+    ],
+    "traditions_b": [
+      "conservative",
+      "libertarian",
+      "fiscal_hawk"
+    ],
+    "polarization": 0.8,
+    "importance": 0.75
+  },
+  "foreign_intervention": {
+    "id": "foreign_intervention",
+    "question": "When should military force be used abroad?",
+    "option_a": "Rarely\u2014non-intervention, anti-imperialism",
+    "option_b": "When necessary\u2014for democracy, security, allies",
+    "level": "domain",
+    "domain": "foreign_policy",
+    "parent_fork_id": "nationalism",
+    "child_forks": [
+      "israel"
+    ],
+    "traditions_a": [
+      "anti_war",
+      "paleocon",
+      "left_anti_imperialist"
+    ],
+    "traditions_b": [
+      "neocon",
+      "liberal_interventionist",
+      "hawk"
+    ],
+    "polarization": 0.75,
+    "importance": 0.7
+  },
+  "israel": {
+    "id": "israel",
+    "question": "What is the right approach to Israel-Palestine?",
+    "option_a": "Palestinian rights\u2014occupation is unjust",
+    "option_b": "Israeli security\u2014existential defense, ally",
+    "level": "domain",
+    "domain": "foreign_policy",
+    "parent_fork_id": "foreign_intervention",
+    "child_forks": [],
+    "traditions_a": [
+      "left",
+      "anti_zionist",
+      "arab_solidarity"
+    ],
+    "traditions_b": [
+      "zionist",
+      "evangelical",
+      "neocon"
+    ],
+    "polarization": 0.95,
+    "importance": 0.6
+  },
+  "china": {
+    "id": "china",
+    "question": "How should the West approach China?",
+    "option_a": "Engagement\u2014interdependence, diplomacy",
+    "option_b": "Confrontation\u2014decoupling, containment",
+    "level": "domain",
+    "domain": "foreign_policy",
+    "parent_fork_id": "nationalism",
+    "child_forks": [],
+    "traditions_a": [
+      "globalist",
+      "business",
+      "realist_dove"
+    ],
+    "traditions_b": [
+      "hawk",
+      "nationalist",
+      "security_state"
+    ],
+    "polarization": 0.7,
+    "importance": 0.7
+  },
+  "tech_regulation": {
+    "id": "tech_regulation",
+    "question": "How should technology be governed?",
+    "option_a": "Light touch\u2014innovation, disruption good",
+    "option_b": "Strong regulation\u2014safety, antitrust, privacy",
+    "level": "domain",
+    "domain": "technology",
+    "parent_fork_id": "markets",
+    "child_forks": [
+      "ai_risk"
+    ],
+    "traditions_a": [
+      "libertarian",
+      "tech_optimist",
+      "accelerationist"
+    ],
+    "traditions_b": [
+      "progressive",
+      "precautionary",
+      "antitrust"
+    ],
+    "polarization": 0.65,
+    "importance": 0.65
+  },
+  "ai_risk": {
+    "id": "ai_risk",
+    "question": "Is advanced AI an existential threat?",
+    "option_a": "Yes\u2014pause/regulate development urgently",
+    "option_b": "No\u2014benefits outweigh risks, continue",
+    "level": "domain",
+    "domain": "technology",
+    "parent_fork_id": "tech_regulation",
+    "child_forks": [],
+    "traditions_a": [
+      "ai_safety",
+      "longtermist",
+      "precautionary"
+    ],
+    "traditions_b": [
+      "e/acc",
+      "tech_optimist",
+      "industry"
+    ],
+    "polarization": 0.75,
+    "importance": 0.6
+  },
+  "climate": {
+    "id": "climate",
+    "question": "How urgent is climate action?",
+    "option_a": "Urgent\u2014transform economy, degrowth if needed",
+    "option_b": "Gradual\u2014technology will solve, cost-benefit",
+    "level": "domain",
+    "domain": "environment",
+    "parent_fork_id": "change",
+    "child_forks": [],
+    "traditions_a": [
+      "green",
+      "progressive",
+      "degrowth"
+    ],
+    "traditions_b": [
+      "conservative",
+      "techno_optimist",
+      "skeptic"
+    ],
+    "polarization": 0.8,
+    "importance": 0.7
+  },
+  "abortion": {
+    "id": "abortion",
+    "question": "What abortion policy is right?",
+    "option_a": "Legal and accessible\u2014bodily autonomy",
+    "option_b": "Restricted/banned\u2014fetal life",
+    "level": "policy",
+    "domain": "social",
+    "parent_fork_id": "tradition_vs_progress",
+    "child_forks": [],
+    "traditions_a": [
+      "feminist",
+      "progressive",
+      "libertarian"
+    ],
+    "traditions_b": [
+      "pro_life",
+      "religious",
+      "conservative"
+    ],
+    "polarization": 0.95,
+    "importance": 0.6
+  },
+  "guns": {
+    "id": "guns",
+    "question": "What gun policy is right?",
+    "option_a": "Strict control\u2014safety, regulation",
+    "option_b": "Permissive\u20142A rights, self-defense",
+    "level": "policy",
+    "domain": "civil_liberties",
+    "parent_fork_id": "security_vs_liberty",
+    "child_forks": [],
+    "traditions_a": [
+      "progressive",
+      "urban",
+      "gun_control"
+    ],
+    "traditions_b": [
+      "conservative",
+      "libertarian",
+      "rural"
+    ],
+    "polarization": 0.9,
+    "importance": 0.55
+  },
+  "speech": {
+    "id": "speech",
+    "question": "How should offensive speech be handled?",
+    "option_a": "Platform moderation\u2014harm reduction, norms",
+    "option_b": "Free speech absolutism\u2014no censorship",
+    "level": "policy",
+    "domain": "civil_liberties",
+    "parent_fork_id": "security_vs_liberty",
+    "child_forks": [],
+    "traditions_a": [
+      "progressive",
+      "harm_focused",
+      "safety"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "free_speech",
+      "civil_libertarian"
+    ],
+    "polarization": 0.8,
+    "importance": 0.6
+  },
+  "crypto": {
+    "id": "crypto",
+    "question": "What is crypto's role?",
+    "option_a": "Speculation/scam\u2014needs heavy regulation",
+    "option_b": "Financial freedom\u2014decentralization, exit",
+    "level": "policy",
+    "domain": "technology",
+    "parent_fork_id": "markets",
+    "child_forks": [],
+    "traditions_a": [
+      "skeptic",
+      "progressive",
+      "statist"
+    ],
+    "traditions_b": [
+      "libertarian",
+      "crypto_native",
+      "accelerationist"
+    ],
+    "polarization": 0.7,
+    "importance": 0.45
+  }
+}

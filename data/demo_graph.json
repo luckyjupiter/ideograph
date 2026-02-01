@@ -1,0 +1,2259 @@
+{
+  "name": "demo",
+  "created_at": "2026-02-01T07:29:58.094568",
+  "updated_at": "2026-02-01T07:29:58.159078",
+  "positions": {
+    "hier_is_natu_f8973fa07956": {
+      "id": "hier_is_natu_f8973fa07956",
+      "claim": "Hierarchy is natural and necessary",
+      "domain": "metaphysics",
+      "valence": 0.7,
+      "level": "axiom",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "huma_are_perf_23c93019af47": {
+      "id": "huma_are_perf_23c93019af47",
+      "claim": "Humans are perfectible through institutions",
+      "domain": "metaphysics",
+      "valence": -0.5,
+      "level": "axiom",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "indi_free_is_98aded10ce0f": {
+      "id": "indi_free_is_98aded10ce0f",
+      "claim": "Individual freedom is the primary value",
+      "domain": "governance",
+      "valence": 0.3,
+      "level": "axiom",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "equa_is_the_048bc4a42f84": {
+      "id": "equa_is_the_048bc4a42f84",
+      "claim": "Equality is the primary value",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "axiom",
+      "visit_count": 2,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "free_mark_solv_c0e8cb621f18": {
+      "id": "free_mark_solv_c0e8cb621f18",
+      "claim": "Free markets solve most problems",
+      "domain": "economics",
+      "valence": 0.7,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "weal_redi_is_e05e89455db0": {
+      "id": "weal_redi_is_e05e89455db0",
+      "claim": "Wealth redistribution is necessary",
+      "domain": "economics",
+      "valence": -0.7,
+      "level": "position",
+      "visit_count": 3,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "unio_prot_work_07965f0f2ecc": {
+      "id": "unio_prot_work_07965f0f2ecc",
+      "claim": "Unions protect workers",
+      "domain": "economics",
+      "valence": -0.4,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "regu_harm_inno_bbe22dae3538": {
+      "id": "regu_harm_inno_bbe22dae3538",
+      "claim": "Regulations harm innovation",
+      "domain": "economics",
+      "valence": 0.6,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "trad_valu_matt_dca31097f5f6": {
+      "id": "trad_valu_matt_dca31097f5f6",
+      "claim": "Traditional values matter",
+      "domain": "social",
+      "valence": 0.7,
+      "level": "position",
+      "visit_count": 2,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "prog_soci_chan_0b0ed1574947": {
+      "id": "prog_soci_chan_0b0ed1574947",
+      "claim": "Progressive social change is good",
+      "domain": "social",
+      "valence": -0.7,
+      "level": "position",
+      "visit_count": 2,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "immi_enri_cult_18898e191058": {
+      "id": "immi_enri_cult_18898e191058",
+      "claim": "Immigration enriches culture",
+      "domain": "social",
+      "valence": -0.3,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "immi_thre_cult_3a4e8806ba2f": {
+      "id": "immi_thre_cult_3a4e8806ba2f",
+      "claim": "Immigration threatens culture",
+      "domain": "social",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "us_hege_is_2c1a57640195": {
+      "id": "us_hege_is_2c1a57640195",
+      "claim": "US hegemony is good for the world",
+      "domain": "foreign_policy",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "mult_is_inev_25f34fc88078": {
+      "id": "mult_is_inev_25f34fc88078",
+      "claim": "Multipolarity is inevitable",
+      "domain": "foreign_policy",
+      "valence": -0.2,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "mili_inte_is_c40bce59f502": {
+      "id": "mili_inte_is_c40bce59f502",
+      "claim": "Military intervention is sometimes necessary",
+      "domain": "foreign_policy",
+      "valence": 0.3,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "anti_is_esse_b9c43d4ab996": {
+      "id": "anti_is_esse_b9c43d4ab996",
+      "claim": "Anti-imperialism is essential",
+      "domain": "foreign_policy",
+      "valence": -0.6,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "tech_prog_is_7d030770ebc0": {
+      "id": "tech_prog_is_7d030770ebc0",
+      "claim": "Tech progress is inherently good",
+      "domain": "technology",
+      "valence": 0.3,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "ai_pose_exis_ca97fd0fb9c0": {
+      "id": "ai_pose_exis_ca97fd0fb9c0",
+      "claim": "AI poses existential risk",
+      "domain": "technology",
+      "valence": 0.0,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "cryp_dece_powe_836926a35029": {
+      "id": "cryp_dece_powe_836926a35029",
+      "claim": "Crypto decentralizes power",
+      "domain": "technology",
+      "valence": 0.2,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "tech_need_regu_fd380b516976": {
+      "id": "tech_need_regu_fd380b516976",
+      "claim": "Tech needs regulation",
+      "domain": "technology",
+      "valence": -0.2,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "demo_is_the_bae40dd2eb1c": {
+      "id": "demo_is_the_bae40dd2eb1c",
+      "claim": "Democracy is the best system",
+      "domain": "governance",
+      "valence": 0.0,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "elit_shou_lead_51d81fa3008a": {
+      "id": "elit_shou_lead_51d81fa3008a",
+      "claim": "Elites should lead",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 2,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "dire_acti_is_6a87d0ea1db5": {
+      "id": "dire_acti_is_6a87d0ea1db5",
+      "claim": "Direct action is valid",
+      "domain": "governance",
+      "valence": -0.4,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "inst_matt_more_9ba9788a7319": {
+      "id": "inst_matt_more_9ba9788a7319",
+      "claim": "Institutions matter more than individuals",
+      "domain": "governance",
+      "valence": 0.0,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "free_spee_is_9d27248149d2": {
+      "id": "free_spee_is_9d27248149d2",
+      "claim": "Free speech is absolute",
+      "domain": "civil_liberties",
+      "valence": null,
+      "level": "position",
+      "visit_count": 1,
+      "canonical_score": 0.5,
+      "traditions": []
+    },
+    "meaning_a": {
+      "id": "meaning_a",
+      "claim": "Life has inherent meaning/purpose (theistic/essentialist)",
+      "domain": "metaphysics",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "religious",
+        "classical",
+        "traditionalist"
+      ]
+    },
+    "meaning_b": {
+      "id": "meaning_b",
+      "claim": "Meaning is constructed/emergent (existentialist/materialist)",
+      "domain": "metaphysics",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "secular",
+        "existentialist",
+        "progressive"
+      ]
+    },
+    "human_nature_a": {
+      "id": "human_nature_a",
+      "claim": "Humans are flawed/fallen, need constraint",
+      "domain": "metaphysics",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "religious",
+        "realist"
+      ]
+    },
+    "human_nature_b": {
+      "id": "human_nature_b",
+      "claim": "Humans are good/perfectible, need liberation",
+      "domain": "metaphysics",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "anarchist",
+        "utopian"
+      ]
+    },
+    "knowledge_a": {
+      "id": "knowledge_a",
+      "claim": "Tradition, revelation, accumulated wisdom",
+      "domain": "epistemology",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "traditionalist",
+        "religious",
+        "burkean"
+      ]
+    },
+    "knowledge_b": {
+      "id": "knowledge_b",
+      "claim": "Reason, empiricism, individual inquiry",
+      "domain": "epistemology",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "rationalist",
+        "scientific",
+        "enlightenment"
+      ]
+    },
+    "individualism_a": {
+      "id": "individualism_a",
+      "claim": "The individual, with inherent rights",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "liberal",
+        "objectivist"
+      ]
+    },
+    "individualism_b": {
+      "id": "individualism_b",
+      "claim": "The collective/community, individuals embedded",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "communitarian",
+        "socialist",
+        "traditionalist"
+      ]
+    },
+    "equality_vs_hierarchy_a": {
+      "id": "equality_vs_hierarchy_a",
+      "claim": "Fundamental equality, hierarchy is imposed",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "egalitarian",
+        "socialist",
+        "progressive"
+      ]
+    },
+    "equality_vs_hierarchy_b": {
+      "id": "equality_vs_hierarchy_b",
+      "claim": "Natural hierarchy, equality is artificial",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "monarchist",
+        "meritocratic"
+      ]
+    },
+    "change_a": {
+      "id": "change_a",
+      "claim": "Gradual reform, preserve what works",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "centrist",
+        "institutionalist"
+      ]
+    },
+    "change_b": {
+      "id": "change_b",
+      "claim": "Bold transformation, break what's broken",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "revolutionary",
+        "accelerationist"
+      ]
+    },
+    "freedom_vs_equality_a": {
+      "id": "freedom_vs_equality_a",
+      "claim": "Equality\u2014outcomes matter more than process",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "socialist",
+        "progressive",
+        "social_democrat"
+      ]
+    },
+    "freedom_vs_equality_b": {
+      "id": "freedom_vs_equality_b",
+      "claim": "Freedom\u2014liberty must not be sacrificed",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "classical_liberal",
+        "conservative"
+      ]
+    },
+    "security_vs_liberty_a": {
+      "id": "security_vs_liberty_a",
+      "claim": "Security\u2014safety enables all other goods",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "statist",
+        "authoritarian",
+        "paternalist"
+      ]
+    },
+    "security_vs_liberty_b": {
+      "id": "security_vs_liberty_b",
+      "claim": "Liberty\u2014freedom cannot be traded for safety",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "aclu_liberal",
+        "civil_libertarian"
+      ]
+    },
+    "tradition_vs_progress_a": {
+      "id": "tradition_vs_progress_a",
+      "claim": "Progress\u2014history is moral improvement",
+      "domain": "social",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "transhumanist",
+        "modernist"
+      ]
+    },
+    "tradition_vs_progress_b": {
+      "id": "tradition_vs_progress_b",
+      "claim": "Tradition\u2014accumulated wisdom, Chesterton's fence",
+      "domain": "social",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "traditionalist",
+        "perennialist"
+      ]
+    },
+    "markets_a": {
+      "id": "markets_a",
+      "claim": "Markets need strong regulation/planning",
+      "domain": "economics",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "socialist",
+        "keynesian",
+        "social_democrat"
+      ]
+    },
+    "markets_b": {
+      "id": "markets_b",
+      "claim": "Free markets allocate best, minimal intervention",
+      "domain": "economics",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "austrian",
+        "neoliberal"
+      ]
+    },
+    "state_a": {
+      "id": "state_a",
+      "claim": "Expansive: provide, protect, redistribute",
+      "domain": "governance",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "social_democrat",
+        "progressive",
+        "statist"
+      ]
+    },
+    "state_b": {
+      "id": "state_b",
+      "claim": "Minimal: defense, courts, contracts only",
+      "domain": "governance",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "minarchist",
+        "classical_liberal"
+      ]
+    },
+    "nationalism_a": {
+      "id": "nationalism_a",
+      "claim": "Cosmopolitan\u2014universal humanity, global institutions",
+      "domain": "foreign_policy",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "globalist",
+        "liberal_internationalist",
+        "eu_federalist"
+      ]
+    },
+    "nationalism_b": {
+      "id": "nationalism_b",
+      "claim": "National\u2014bounded communities, sovereignty",
+      "domain": "foreign_policy",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "nationalist",
+        "paleocon",
+        "sovereigntist"
+      ]
+    },
+    "immigration_a": {
+      "id": "immigration_a",
+      "claim": "Open\u2014human mobility, economic growth",
+      "domain": "social",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "progressive",
+        "neoliberal"
+      ]
+    },
+    "immigration_b": {
+      "id": "immigration_b",
+      "claim": "Restricted\u2014cultural cohesion, labor protection",
+      "domain": "social",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "populist",
+        "nationalist",
+        "labor_left"
+      ]
+    },
+    "trade_a": {
+      "id": "trade_a",
+      "claim": "Free trade\u2014comparative advantage, globalization",
+      "domain": "economics",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "neoliberal",
+        "libertarian",
+        "establishment"
+      ]
+    },
+    "trade_b": {
+      "id": "trade_b",
+      "claim": "Protected trade\u2014domestic industry, strategic autonomy",
+      "domain": "economics",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "populist",
+        "labor",
+        "nationalist"
+      ]
+    },
+    "welfare_a": {
+      "id": "welfare_a",
+      "claim": "Expansive\u2014universal services, safety net",
+      "domain": "economics",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "social_democrat",
+        "progressive",
+        "labor"
+      ]
+    },
+    "welfare_b": {
+      "id": "welfare_b",
+      "claim": "Minimal\u2014targeted, means-tested, personal responsibility",
+      "domain": "economics",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "libertarian",
+        "fiscal_hawk"
+      ]
+    },
+    "foreign_intervention_a": {
+      "id": "foreign_intervention_a",
+      "claim": "Rarely\u2014non-intervention, anti-imperialism",
+      "domain": "foreign_policy",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "anti_war",
+        "paleocon",
+        "left_anti_imperialist"
+      ]
+    },
+    "foreign_intervention_b": {
+      "id": "foreign_intervention_b",
+      "claim": "When necessary\u2014for democracy, security, allies",
+      "domain": "foreign_policy",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "neocon",
+        "liberal_interventionist",
+        "hawk"
+      ]
+    },
+    "israel_a": {
+      "id": "israel_a",
+      "claim": "Palestinian rights\u2014occupation is unjust",
+      "domain": "foreign_policy",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "left",
+        "anti_zionist",
+        "arab_solidarity"
+      ]
+    },
+    "israel_b": {
+      "id": "israel_b",
+      "claim": "Israeli security\u2014existential defense, ally",
+      "domain": "foreign_policy",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "zionist",
+        "evangelical",
+        "neocon"
+      ]
+    },
+    "china_a": {
+      "id": "china_a",
+      "claim": "Engagement\u2014interdependence, diplomacy",
+      "domain": "foreign_policy",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "globalist",
+        "business",
+        "realist_dove"
+      ]
+    },
+    "china_b": {
+      "id": "china_b",
+      "claim": "Confrontation\u2014decoupling, containment",
+      "domain": "foreign_policy",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "hawk",
+        "nationalist",
+        "security_state"
+      ]
+    },
+    "tech_regulation_a": {
+      "id": "tech_regulation_a",
+      "claim": "Light touch\u2014innovation, disruption good",
+      "domain": "technology",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "tech_optimist",
+        "accelerationist"
+      ]
+    },
+    "tech_regulation_b": {
+      "id": "tech_regulation_b",
+      "claim": "Strong regulation\u2014safety, antitrust, privacy",
+      "domain": "technology",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "precautionary",
+        "antitrust"
+      ]
+    },
+    "ai_risk_a": {
+      "id": "ai_risk_a",
+      "claim": "Yes\u2014pause/regulate development urgently",
+      "domain": "technology",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "ai_safety",
+        "longtermist",
+        "precautionary"
+      ]
+    },
+    "ai_risk_b": {
+      "id": "ai_risk_b",
+      "claim": "No\u2014benefits outweigh risks, continue",
+      "domain": "technology",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "e/acc",
+        "tech_optimist",
+        "industry"
+      ]
+    },
+    "climate_a": {
+      "id": "climate_a",
+      "claim": "Urgent\u2014transform economy, degrowth if needed",
+      "domain": "environment",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "green",
+        "progressive",
+        "degrowth"
+      ]
+    },
+    "climate_b": {
+      "id": "climate_b",
+      "claim": "Gradual\u2014technology will solve, cost-benefit",
+      "domain": "environment",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "techno_optimist",
+        "skeptic"
+      ]
+    },
+    "abortion_a": {
+      "id": "abortion_a",
+      "claim": "Legal and accessible\u2014bodily autonomy",
+      "domain": "social",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "feminist",
+        "progressive",
+        "libertarian"
+      ]
+    },
+    "abortion_b": {
+      "id": "abortion_b",
+      "claim": "Restricted/banned\u2014fetal life",
+      "domain": "social",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "pro_life",
+        "religious",
+        "conservative"
+      ]
+    },
+    "guns_a": {
+      "id": "guns_a",
+      "claim": "Strict control\u2014safety, regulation",
+      "domain": "civil_liberties",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "urban",
+        "gun_control"
+      ]
+    },
+    "guns_b": {
+      "id": "guns_b",
+      "claim": "Permissive\u20142A rights, self-defense",
+      "domain": "civil_liberties",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "conservative",
+        "libertarian",
+        "rural"
+      ]
+    },
+    "speech_a": {
+      "id": "speech_a",
+      "claim": "Platform moderation\u2014harm reduction, norms",
+      "domain": "civil_liberties",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "progressive",
+        "harm_focused",
+        "safety"
+      ]
+    },
+    "speech_b": {
+      "id": "speech_b",
+      "claim": "Free speech absolutism\u2014no censorship",
+      "domain": "civil_liberties",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "free_speech",
+        "civil_libertarian"
+      ]
+    },
+    "crypto_a": {
+      "id": "crypto_a",
+      "claim": "Speculation/scam\u2014needs heavy regulation",
+      "domain": "technology",
+      "valence": -0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "skeptic",
+        "progressive",
+        "statist"
+      ]
+    },
+    "crypto_b": {
+      "id": "crypto_b",
+      "claim": "Financial freedom\u2014decentralization, exit",
+      "domain": "technology",
+      "valence": 0.5,
+      "level": "position",
+      "visit_count": 0,
+      "canonical_score": 0.5,
+      "traditions": [
+        "libertarian",
+        "crypto_native",
+        "accelerationist"
+      ]
+    }
+  },
+  "edges": {
+    "hier_is_natu_f8973fa07956->trad_valu_matt_dca31097f5f6:implies": {
+      "source_id": "hier_is_natu_f8973fa07956",
+      "target_id": "trad_valu_matt_dca31097f5f6",
+      "edge_type": "implies",
+      "weight": 0.63,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "free_mark_solv_c0e8cb621f18->regu_harm_inno_bbe22dae3538:implies": {
+      "source_id": "free_mark_solv_c0e8cb621f18",
+      "target_id": "regu_harm_inno_bbe22dae3538",
+      "edge_type": "implies",
+      "weight": 0.64,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 1,
+      "tension": 0.0
+    },
+    "huma_are_perf_23c93019af47->prog_soci_chan_0b0ed1574947:implies": {
+      "source_id": "huma_are_perf_23c93019af47",
+      "target_id": "prog_soci_chan_0b0ed1574947",
+      "edge_type": "implies",
+      "weight": 0.6,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "equa_is_the_048bc4a42f84->weal_redi_is_e05e89455db0:implies": {
+      "source_id": "equa_is_the_048bc4a42f84",
+      "target_id": "weal_redi_is_e05e89455db0",
+      "edge_type": "implies",
+      "weight": 0.667,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 1,
+      "tension": 0.0
+    },
+    "free_mark_solv_c0e8cb621f18->weal_redi_is_e05e89455db0:contradicts": {
+      "source_id": "free_mark_solv_c0e8cb621f18",
+      "target_id": "weal_redi_is_e05e89455db0",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "trad_valu_matt_dca31097f5f6->prog_soci_chan_0b0ed1574947:contradicts": {
+      "source_id": "trad_valu_matt_dca31097f5f6",
+      "target_id": "prog_soci_chan_0b0ed1574947",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "immi_enri_cult_18898e191058->immi_thre_cult_3a4e8806ba2f:contradicts": {
+      "source_id": "immi_enri_cult_18898e191058",
+      "target_id": "immi_thre_cult_3a4e8806ba2f",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "indi_free_is_98aded10ce0f->equa_is_the_048bc4a42f84:prioritizes_over": {
+      "source_id": "indi_free_is_98aded10ce0f",
+      "target_id": "equa_is_the_048bc4a42f84",
+      "edge_type": "prioritizes_over",
+      "weight": 0.5,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "indi_free_is_98aded10ce0f->free_spee_is_9d27248149d2:collider": {
+      "source_id": "indi_free_is_98aded10ce0f",
+      "target_id": "free_spee_is_9d27248149d2",
+      "edge_type": "collider",
+      "weight": 0.5,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "prog_soci_chan_0b0ed1574947->free_spee_is_9d27248149d2:collider": {
+      "source_id": "prog_soci_chan_0b0ed1574947",
+      "target_id": "free_spee_is_9d27248149d2",
+      "edge_type": "collider",
+      "weight": 0.5,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "indi_free_is_98aded10ce0f->free_mark_solv_c0e8cb621f18:implies": {
+      "source_id": "indi_free_is_98aded10ce0f",
+      "target_id": "free_mark_solv_c0e8cb621f18",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "regu_harm_inno_bbe22dae3538->free_spee_is_9d27248149d2:implies": {
+      "source_id": "regu_harm_inno_bbe22dae3538",
+      "target_id": "free_spee_is_9d27248149d2",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "weal_redi_is_e05e89455db0->prog_soci_chan_0b0ed1574947:implies": {
+      "source_id": "weal_redi_is_e05e89455db0",
+      "target_id": "prog_soci_chan_0b0ed1574947",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "prog_soci_chan_0b0ed1574947->immi_enri_cult_18898e191058:implies": {
+      "source_id": "prog_soci_chan_0b0ed1574947",
+      "target_id": "immi_enri_cult_18898e191058",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "weal_redi_is_e05e89455db0->unio_prot_work_07965f0f2ecc:implies": {
+      "source_id": "weal_redi_is_e05e89455db0",
+      "target_id": "unio_prot_work_07965f0f2ecc",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "unio_prot_work_07965f0f2ecc->trad_valu_matt_dca31097f5f6:implies": {
+      "source_id": "unio_prot_work_07965f0f2ecc",
+      "target_id": "trad_valu_matt_dca31097f5f6",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "trad_valu_matt_dca31097f5f6->mult_is_inev_25f34fc88078:implies": {
+      "source_id": "trad_valu_matt_dca31097f5f6",
+      "target_id": "mult_is_inev_25f34fc88078",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "meaning_a->meaning_b:contradicts": {
+      "source_id": "meaning_a",
+      "target_id": "meaning_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "human_nature_a->human_nature_b:contradicts": {
+      "source_id": "human_nature_a",
+      "target_id": "human_nature_b",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "knowledge_a->knowledge_b:contradicts": {
+      "source_id": "knowledge_a",
+      "target_id": "knowledge_b",
+      "edge_type": "contradicts",
+      "weight": 0.7,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->individualism_b:contradicts": {
+      "source_id": "individualism_a",
+      "target_id": "individualism_b",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "meaning_a->individualism_a:implies": {
+      "source_id": "meaning_a",
+      "target_id": "individualism_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "meaning_a->individualism_b:implies": {
+      "source_id": "meaning_a",
+      "target_id": "individualism_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "meaning_b->individualism_a:implies": {
+      "source_id": "meaning_b",
+      "target_id": "individualism_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "meaning_b->individualism_b:implies": {
+      "source_id": "meaning_b",
+      "target_id": "individualism_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "equality_vs_hierarchy_a->equality_vs_hierarchy_b:contradicts": {
+      "source_id": "equality_vs_hierarchy_a",
+      "target_id": "equality_vs_hierarchy_b",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "human_nature_a->equality_vs_hierarchy_a:implies": {
+      "source_id": "human_nature_a",
+      "target_id": "equality_vs_hierarchy_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "human_nature_a->equality_vs_hierarchy_b:implies": {
+      "source_id": "human_nature_a",
+      "target_id": "equality_vs_hierarchy_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "human_nature_b->equality_vs_hierarchy_a:implies": {
+      "source_id": "human_nature_b",
+      "target_id": "equality_vs_hierarchy_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "human_nature_b->equality_vs_hierarchy_b:implies": {
+      "source_id": "human_nature_b",
+      "target_id": "equality_vs_hierarchy_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_a->change_b:contradicts": {
+      "source_id": "change_a",
+      "target_id": "change_b",
+      "edge_type": "contradicts",
+      "weight": 0.75,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "knowledge_a->change_a:implies": {
+      "source_id": "knowledge_a",
+      "target_id": "change_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "knowledge_a->change_b:implies": {
+      "source_id": "knowledge_a",
+      "target_id": "change_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "knowledge_b->change_a:implies": {
+      "source_id": "knowledge_b",
+      "target_id": "change_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "knowledge_b->change_b:implies": {
+      "source_id": "knowledge_b",
+      "target_id": "change_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_a->freedom_vs_equality_b:contradicts": {
+      "source_id": "freedom_vs_equality_a",
+      "target_id": "freedom_vs_equality_b",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->freedom_vs_equality_a:implies": {
+      "source_id": "individualism_a",
+      "target_id": "freedom_vs_equality_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->freedom_vs_equality_b:implies": {
+      "source_id": "individualism_a",
+      "target_id": "freedom_vs_equality_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->freedom_vs_equality_a:implies": {
+      "source_id": "individualism_b",
+      "target_id": "freedom_vs_equality_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->freedom_vs_equality_b:implies": {
+      "source_id": "individualism_b",
+      "target_id": "freedom_vs_equality_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_a->security_vs_liberty_b:contradicts": {
+      "source_id": "security_vs_liberty_a",
+      "target_id": "security_vs_liberty_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->security_vs_liberty_a:implies": {
+      "source_id": "individualism_a",
+      "target_id": "security_vs_liberty_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->security_vs_liberty_b:implies": {
+      "source_id": "individualism_a",
+      "target_id": "security_vs_liberty_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->security_vs_liberty_a:implies": {
+      "source_id": "individualism_b",
+      "target_id": "security_vs_liberty_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->security_vs_liberty_b:implies": {
+      "source_id": "individualism_b",
+      "target_id": "security_vs_liberty_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tradition_vs_progress_a->tradition_vs_progress_b:contradicts": {
+      "source_id": "tradition_vs_progress_a",
+      "target_id": "tradition_vs_progress_b",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_a->tradition_vs_progress_a:implies": {
+      "source_id": "change_a",
+      "target_id": "tradition_vs_progress_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_a->tradition_vs_progress_b:implies": {
+      "source_id": "change_a",
+      "target_id": "tradition_vs_progress_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_b->tradition_vs_progress_a:implies": {
+      "source_id": "change_b",
+      "target_id": "tradition_vs_progress_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_b->tradition_vs_progress_b:implies": {
+      "source_id": "change_b",
+      "target_id": "tradition_vs_progress_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->markets_b:contradicts": {
+      "source_id": "markets_a",
+      "target_id": "markets_b",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_a->markets_a:implies": {
+      "source_id": "freedom_vs_equality_a",
+      "target_id": "markets_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_a->markets_b:implies": {
+      "source_id": "freedom_vs_equality_a",
+      "target_id": "markets_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_b->markets_a:implies": {
+      "source_id": "freedom_vs_equality_b",
+      "target_id": "markets_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_b->markets_b:implies": {
+      "source_id": "freedom_vs_equality_b",
+      "target_id": "markets_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "state_a->state_b:contradicts": {
+      "source_id": "state_a",
+      "target_id": "state_b",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_a->state_a:implies": {
+      "source_id": "freedom_vs_equality_a",
+      "target_id": "state_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_a->state_b:implies": {
+      "source_id": "freedom_vs_equality_a",
+      "target_id": "state_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_b->state_a:implies": {
+      "source_id": "freedom_vs_equality_b",
+      "target_id": "state_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "freedom_vs_equality_b->state_b:implies": {
+      "source_id": "freedom_vs_equality_b",
+      "target_id": "state_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->nationalism_b:contradicts": {
+      "source_id": "nationalism_a",
+      "target_id": "nationalism_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->nationalism_a:implies": {
+      "source_id": "individualism_a",
+      "target_id": "nationalism_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_a->nationalism_b:implies": {
+      "source_id": "individualism_a",
+      "target_id": "nationalism_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->nationalism_a:implies": {
+      "source_id": "individualism_b",
+      "target_id": "nationalism_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "individualism_b->nationalism_b:implies": {
+      "source_id": "individualism_b",
+      "target_id": "nationalism_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "immigration_a->immigration_b:contradicts": {
+      "source_id": "immigration_a",
+      "target_id": "immigration_b",
+      "edge_type": "contradicts",
+      "weight": 0.85,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->immigration_a:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "immigration_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->immigration_b:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "immigration_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->immigration_a:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "immigration_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->immigration_b:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "immigration_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "trade_a->trade_b:contradicts": {
+      "source_id": "trade_a",
+      "target_id": "trade_b",
+      "edge_type": "contradicts",
+      "weight": 0.7,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->trade_a:implies": {
+      "source_id": "markets_a",
+      "target_id": "trade_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->trade_b:implies": {
+      "source_id": "markets_a",
+      "target_id": "trade_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->trade_a:implies": {
+      "source_id": "markets_b",
+      "target_id": "trade_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->trade_b:implies": {
+      "source_id": "markets_b",
+      "target_id": "trade_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "welfare_a->welfare_b:contradicts": {
+      "source_id": "welfare_a",
+      "target_id": "welfare_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "state_a->welfare_a:implies": {
+      "source_id": "state_a",
+      "target_id": "welfare_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "state_a->welfare_b:implies": {
+      "source_id": "state_a",
+      "target_id": "welfare_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "state_b->welfare_a:implies": {
+      "source_id": "state_b",
+      "target_id": "welfare_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "state_b->welfare_b:implies": {
+      "source_id": "state_b",
+      "target_id": "welfare_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "foreign_intervention_a->foreign_intervention_b:contradicts": {
+      "source_id": "foreign_intervention_a",
+      "target_id": "foreign_intervention_b",
+      "edge_type": "contradicts",
+      "weight": 0.75,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->foreign_intervention_a:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "foreign_intervention_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->foreign_intervention_b:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "foreign_intervention_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->foreign_intervention_a:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "foreign_intervention_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->foreign_intervention_b:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "foreign_intervention_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "israel_a->israel_b:contradicts": {
+      "source_id": "israel_a",
+      "target_id": "israel_b",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "foreign_intervention_a->israel_a:implies": {
+      "source_id": "foreign_intervention_a",
+      "target_id": "israel_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "foreign_intervention_a->israel_b:implies": {
+      "source_id": "foreign_intervention_a",
+      "target_id": "israel_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "foreign_intervention_b->israel_a:implies": {
+      "source_id": "foreign_intervention_b",
+      "target_id": "israel_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "foreign_intervention_b->israel_b:implies": {
+      "source_id": "foreign_intervention_b",
+      "target_id": "israel_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "china_a->china_b:contradicts": {
+      "source_id": "china_a",
+      "target_id": "china_b",
+      "edge_type": "contradicts",
+      "weight": 0.7,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->china_a:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "china_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_a->china_b:implies": {
+      "source_id": "nationalism_a",
+      "target_id": "china_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->china_a:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "china_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "nationalism_b->china_b:implies": {
+      "source_id": "nationalism_b",
+      "target_id": "china_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tech_regulation_a->tech_regulation_b:contradicts": {
+      "source_id": "tech_regulation_a",
+      "target_id": "tech_regulation_b",
+      "edge_type": "contradicts",
+      "weight": 0.65,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->tech_regulation_a:implies": {
+      "source_id": "markets_a",
+      "target_id": "tech_regulation_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->tech_regulation_b:implies": {
+      "source_id": "markets_a",
+      "target_id": "tech_regulation_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->tech_regulation_a:implies": {
+      "source_id": "markets_b",
+      "target_id": "tech_regulation_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->tech_regulation_b:implies": {
+      "source_id": "markets_b",
+      "target_id": "tech_regulation_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "ai_risk_a->ai_risk_b:contradicts": {
+      "source_id": "ai_risk_a",
+      "target_id": "ai_risk_b",
+      "edge_type": "contradicts",
+      "weight": 0.75,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tech_regulation_a->ai_risk_a:implies": {
+      "source_id": "tech_regulation_a",
+      "target_id": "ai_risk_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tech_regulation_a->ai_risk_b:implies": {
+      "source_id": "tech_regulation_a",
+      "target_id": "ai_risk_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tech_regulation_b->ai_risk_a:implies": {
+      "source_id": "tech_regulation_b",
+      "target_id": "ai_risk_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tech_regulation_b->ai_risk_b:implies": {
+      "source_id": "tech_regulation_b",
+      "target_id": "ai_risk_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "climate_a->climate_b:contradicts": {
+      "source_id": "climate_a",
+      "target_id": "climate_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_a->climate_a:implies": {
+      "source_id": "change_a",
+      "target_id": "climate_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_a->climate_b:implies": {
+      "source_id": "change_a",
+      "target_id": "climate_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_b->climate_a:implies": {
+      "source_id": "change_b",
+      "target_id": "climate_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "change_b->climate_b:implies": {
+      "source_id": "change_b",
+      "target_id": "climate_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "abortion_a->abortion_b:contradicts": {
+      "source_id": "abortion_a",
+      "target_id": "abortion_b",
+      "edge_type": "contradicts",
+      "weight": 0.95,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tradition_vs_progress_a->abortion_a:implies": {
+      "source_id": "tradition_vs_progress_a",
+      "target_id": "abortion_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tradition_vs_progress_a->abortion_b:implies": {
+      "source_id": "tradition_vs_progress_a",
+      "target_id": "abortion_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tradition_vs_progress_b->abortion_a:implies": {
+      "source_id": "tradition_vs_progress_b",
+      "target_id": "abortion_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "tradition_vs_progress_b->abortion_b:implies": {
+      "source_id": "tradition_vs_progress_b",
+      "target_id": "abortion_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "guns_a->guns_b:contradicts": {
+      "source_id": "guns_a",
+      "target_id": "guns_b",
+      "edge_type": "contradicts",
+      "weight": 0.9,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_a->guns_a:implies": {
+      "source_id": "security_vs_liberty_a",
+      "target_id": "guns_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_a->guns_b:implies": {
+      "source_id": "security_vs_liberty_a",
+      "target_id": "guns_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_b->guns_a:implies": {
+      "source_id": "security_vs_liberty_b",
+      "target_id": "guns_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_b->guns_b:implies": {
+      "source_id": "security_vs_liberty_b",
+      "target_id": "guns_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "speech_a->speech_b:contradicts": {
+      "source_id": "speech_a",
+      "target_id": "speech_b",
+      "edge_type": "contradicts",
+      "weight": 0.8,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_a->speech_a:implies": {
+      "source_id": "security_vs_liberty_a",
+      "target_id": "speech_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_a->speech_b:implies": {
+      "source_id": "security_vs_liberty_a",
+      "target_id": "speech_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_b->speech_a:implies": {
+      "source_id": "security_vs_liberty_b",
+      "target_id": "speech_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "security_vs_liberty_b->speech_b:implies": {
+      "source_id": "security_vs_liberty_b",
+      "target_id": "speech_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "crypto_a->crypto_b:contradicts": {
+      "source_id": "crypto_a",
+      "target_id": "crypto_b",
+      "edge_type": "contradicts",
+      "weight": 0.7,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->crypto_a:implies": {
+      "source_id": "markets_a",
+      "target_id": "crypto_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_a->crypto_b:implies": {
+      "source_id": "markets_a",
+      "target_id": "crypto_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->crypto_a:implies": {
+      "source_id": "markets_b",
+      "target_id": "crypto_a",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    },
+    "markets_b->crypto_b:implies": {
+      "source_id": "markets_b",
+      "target_id": "crypto_b",
+      "edge_type": "implies",
+      "weight": 0.3,
+      "evidence_count": 0,
+      "confidence": 0.5,
+      "co_occurrence": 0,
+      "tension": 0.0
+    }
+  }
+}
